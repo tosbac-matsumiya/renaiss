@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="renaiss-welcome" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\TOSBAC\\Documents\\FitnessGymTest_webまとめ\\FitnessGymTest\\FitnessGymTest\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\TOSBAC\\Documents\\FitnessGymTest_webまとめ\\FitnessGymTest\\FitnessGymTest\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="hokutos-testerConnectionString-Web.config Connection String" description="hokutos-testerConnectionString データベースに接続するためにアプリケーションによって web.config で使用される接続文字列。" value="Data Source=hokutos-tester.database.windows.net;Initial Catalog=hokutos-tester;Persist Security Info=True;User ID=Komaikou;Password=Tanstaafl2045" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\TOSBAC\\Documents\\FitnessGymTest_webまとめ\\FitnessGymTest\\FitnessGymTest\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='hokutos-testerConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="OnPremisesDBConnection-Web.config Connection String" description="OnPremisesDBConnection データベースに接続するためにアプリケーションによって web.config で使用される接続文字列。" value="Data Source=tcp:sv020,1433;Initial Catalog=RNS;Persist Security Info=True;User ID=RNS;Password=RNS" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\TOSBAC\\Documents\\FitnessGymTest_webまとめ\\FitnessGymTest\\FitnessGymTest\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='OnPremisesDBConnection']/@connectionString" />
+  </parameter>
+  <parameter name="renaissDBConnectionString-Web.config Connection String" description="renaissDBConnectionString データベースに接続するためにアプリケーションによって web.config で使用される接続文字列。" value="Data Source=renaiss.database.windows.net;Initial Catalog=renaissDB;Persist Security Info=True;User ID=Komaikou;Password=Renaiss9030" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\TOSBAC\\Documents\\FitnessGymTest_webまとめ\\FitnessGymTest\\FitnessGymTest\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='renaissDBConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

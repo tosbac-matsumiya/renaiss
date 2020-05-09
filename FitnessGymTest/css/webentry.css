@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css?family=Chau+Philomene+One');
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+/* -------------------------------- 
+
+web入会の流れ表示
+
+-------------------------------- */
+/*@media only screen and (min-width: 768px) {*/
+
+    .stepBar {
+      position: relative;
+      list-style: none;
+      margin: 1em 0;
+      padding: 0;
+      text-align: center;
+      width: 100%;
+      overflow: hidden;
+      *zoom: 1;
+    }
+    .stepBar .step {
+      position: relative;
+      float: left;
+      display: inline-block;
+      line-height: 30px;
+      padding: 0 40px 0 20px;
+    /*  background-color: #eee;*/
+      background-color: #fff;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      font-family: 'Chau Philomene One', sans-serif;
+    }
+    .stepBar .step:before, .stepBar .step:after {
+      position: absolute;
+      left: -15px;
+      display: block;
+      content: '';
+    /*  background-color: #eee;*/
+      background-color: #fff;
+      border-left: 4px solid #eee;
+      width: 25px;
+      height: 16px;
+    }
+    .stepBar .step:after {
+      top: 0;
+      -moz-transform: skew(30deg);
+      -ms-transform: skew(30deg);
+      -webkit-transform: skew(30deg);
+      transform: skew(30deg);
+    }
+    .stepBar .step:before {
+      bottom: 0;
+      -moz-transform: skew(-30deg);
+      -ms-transform: skew(-30deg);
+      -webkit-transform: skew(-30deg);
+      transform: skew(-30deg);
+    }
+    .stepBar .step:first-child {
+      -moz-border-radius-topleft: 4px;
+      -webkit-border-top-left-radius: 4px;
+      border-top-left-radius: 4px;
+      -moz-border-radius-bottomleft: 4px;
+      -webkit-border-bottom-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+    }
+    .stepBar .step:first-child:before, .stepBar .step:first-child:after {
+      content: none;
+    }
+    .stepBar .step:last-child {
+      -moz-border-radius-topright: 4px;
+      -webkit-border-top-right-radius: 4px;
+      border-top-right-radius: 4px;
+      -moz-border-radius-bottomright: 4px;
+      -webkit-border-bottom-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+    .stepBar .step.current {
+      color: #FFF;
+      /*background-color: #26bfa1;*/
+      background-color: #00a99d;
+    }
+    .stepBar .step.current:before, .stepBar .step.current:after {
+      /*background-color: #26bfa1;*/
+      background-color: #00a99d;
+    }
+
+    .stepBar .step.visited {
+        color: #FFF;
+        background-color: #01448a;
+    }
+    .stepBar .step.visited:before, .stepBar .step.visited:after {
+        background-color: #01448a;
+    }
+
+    .stepBar.step3 .step {
+      width: 33.333%;
+    }
+    .stepBar.step4 .step {
+      width: 25%;
+    }
+    .stepBar.step5 .step {
+      width: 20%;
+    }
+
+/*}*/
+
+
+@media screen and (max-width:991px) {
+     .stepBar .step small {
+         display:none;
+     }
+     .stepBar .step {
+         padding: 0px;
+         font-size: 14px;
+     }
+
+     .stepBar .step:before, .stepBar .step:after {
+      left: -7px;
+      width: 20px;
+      height: 15px;
+    }
+}
+
+h2 {
+    color: #000;
+}
+
+
+/* -------------------------------- 
+
+webadmission.html
+
+-------------------------------- */
+
+/*.point {
+    text-align: center;
+    font-size: 24px;
+    width: 60%;
+    border: 3px double #ccc;
+    padding: 1em;
+    margin: 15px auto;
+}
+
+@media screen and (max-width:479px) {
+    .point {
+        width: 95%;
+        font-size: 18px;
+    }
+    .webadmission {
+        font-size: 16px;
+    }
+}
+
+.webadmission {
+    margin: 30px 0px;
+}
+
+.panel {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.yazirusi img {
+    display: block;
+    margin: 0 auto;
+}*/
+
+
+/* -------------------------------- 
+
+Registration-ns_2.aspx
+
+-------------------------------- */
+
+.form-group {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #dddddd;
+}
+
+.form-group label {
+    font-size: 15px;
+}
+
+.text_position {
+    padding: 7px 20px 0px;
+}
+
+#membeid {
+    /*margin: 0px 5px;*/
+    /*background: #fff;*/
+    /*padding: 10px 5px;*/
+}
+
+.modal-dialog {
+    width: 80%;
+    max-width: 870px;
+    padding: 15px;
+}
+
+.photo-crop-preview-wrapper {
+    box-sizing: border-box;
+    border: 1px solid #999;
+    height: 420px;
+    margin: 0 0 10px;
+}
+
+#fupPhoto_2 {
+    display: none;
+}
+
+#fupPhoto_1 {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .modal-dialog {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .photo-crop-preview-wrapper {
+        height: 380px;
+    }
+
+    #fupPhoto_2 {
+        display: block;
+        margin-bottom: 20px;
+    }
+    #fupPhoto_1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .modal-dialog {
+        width: 100%;
+        padding: 15px 5px;
+    }
+    
+        .modal-body {
+        padding: 10px;
+    }
+    
+    .photo-crop-preview-wrapper {
+        height: 270px;
+    }
+    
+}
+
+
+.photo-crop-button--submit {
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+.modal-body h4 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.list-group {
+    list-style: disc;
+    list-style-position: outside;
+    margin: 5px 0px 5px 1em;
+    font-size: 13px;
+}
+
+.modal-body ul li {
+    margin: 0;
+    font-size: 13px;
+}
+
+.modal-body p {
+    margin: 0px;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+.border {
+    margin: 20px 0;
+    padding: 20px 0;
+    font-size: 13px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+
+/* -------------------------------- 
+
+Registration_3.aspx
+
+-------------------------------- */
+
+.kakunin {
+    padding: 10px 5px 0px;
+    margin: 20px auto;
+    background: #fff;
+}
+
+.item {
+    background: #f2a905;
+    color: #fff;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.input {
+    margin-top: 5px;
+}
+
+.doisyo {
+    background: #fff;
+    margin: 5px;
+    border: 2px solid #808080;
+    padding: 10px 20px;
+}
+
+.doisyo p.top {
+    margin-bottom: 5px;
+}
+
+.chkbox {
+	margin:			20px 0 0px;
+}
+/* ラベルのスタイル　*/
+.chkbox label {
+	padding-left:		32px;			/* ラベルの位置 */
+	font-size:		    26px;
+	line-height:		26px;
+	display:		inline-block;
+	cursor:			pointer;
+	position:		relative;
+}
+
+/* ボックスのスタイル */
+.chkbox label:before {
+	content:		'';
+	width:			26px;			/* ボックスの横幅 */
+	height:			26px;			/* ボックスの縦幅 */
+	display:		inline-block;
+	position:		absolute;
+	left:			0;
+	background-color:	#fff;
+	box-shadow:		inset 1px 2px 3px 0px #000;
+	border-radius:		6px 6px 6px 6px;
+}
+/* 元のチェックボックスを表示しない */
+.chkbox input[type=checkbox] {
+	display:		none;
+}
+/* チェックした時のスタイル */
+.chkbox input[type=checkbox]:checked + label:before {
+	content:		'\2713';		/* チェックの文字 */ 
+	font-size:		30px;			/* チェックのサイズ */
+	color:			#fff;			/* チェックの色 */
+	background-color:	#06f;			/* チェックした時の色 */
+}
+
+
+@media screen and (max-width:479px) {   
+    #celsum_text {
+        font-size: smaller;
+    }
+
+    .photocenter {
+        text-align: center;
+    }
+
+    #imgPhoto {
+        margin-top: 5px;
+    }
+
+    .doisyo p.top {
+        font-size: 75%;
+    }
+
+    .chkbox {
+	    margin:	10px 0px 0px;
+    }
+
+    .chkbox label {
+	    padding-left:		24px;			/* ラベルの位置 */
+	    font-size:		    20px;
+        line-height:		20px;
+    }
+
+    .chkbox label:before {
+        width:			20px;			/* ボックスの横幅 */
+	    height:			20px;			/* ボックスの縦幅 */
+    }
+
+    .chkbox input[type=checkbox]:checked + label:before {
+	    font-size:		20px;			/* チェックのサイズ */
+    }
+}
+
+
+/* -------------------------------- 
+
+.aspx
+
+-------------------------------- */
+
+.container.webwidth {
+    width: 80%;
+    max-width: 830px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:991px) {
+    .container.webwidth {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.webtitle {
+    background: #3498db;
+    color: #fff;
+}
+
+.backcolor_w {
+    background:#fff;
+    padding: 5px 10px 1px;
+    border-radius: 5px;
+}
+
+.nocenter {
+    margin: 0;
+}
+
+.banner a img {
+    margin:0 auto;
+}
+
+
+.image_list .image_box {
+    /*width: 200px;
+    height: 200px;*/
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.image_box img.thumbnail {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 3px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: Transparent;
+}
+
+.image_box img.thumbnail:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.image_box .disabled_checkbox {
+    /* チェックボックスの位置は絶対位置にします。 */
+    position: absolute;
+    /* チェックボックスは、親要素の右上から12pxの位置に配置します。 */
+    top: 12px;
+    right: 12px;
+    /* チェック前は非表示にしておきます。 */
+    display: none;
+}
+
+.image_box img.thumbnail.checked {
+    /* チェックが入った状態だと、枠が表示されるようにします。 */
+    border: 1px solid blue;
+    /* 線をwidthとheightに含めるようにします。 */
+    /*box-sizing: border-box;*/
+    /*background-color: rgba(0,0,0,0.5);*/
+    opacity: 0.4;
+}
+
+
+.image_box img.thumbnail.checked + .disabled_checkbox {
+    /* 画像にcheckedクラスが指定されたときは、
+    チェックボックスの非表示を解除します。 */
+    display: block;
+}
+
+
+
+
+.image_list2 .image_box2 {
+    /*width: 200px;
+    height: 200px;*/
+    margin: 0px;
+    position: relative;
+}
+
+.image_box2 img.thumbnail2 {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 3px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: Transparent;
+}
+
+.image_box2 img.thumbnail2:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.image_box2 .disabled_checkbox2 {
+    /* チェックボックスの位置は絶対位置にします。 */
+    position: absolute;
+    /* チェックボックスは、親要素の右上から12pxの位置に配置します。 */
+    top: 12px;
+    right: 12px;
+    /* チェック前は非表示にしておきます。 */
+    display: none;
+}
+
+.image_box2 img.thumbnail2.checked2 {
+    /* チェックが入った状態だと、枠が表示されるようにします。 */
+    border: 1px solid blue;
+    /* 線をwidthとheightに含めるようにします。 */
+    /*box-sizing: border-box;*/
+    /*background-color: rgba(0,0,0,0.5);*/
+    opacity: 0.4;
+}
+
+
+.image_box2 img.thumbnail2.checked2 + .disabled_checkbox2 {
+    /* 画像にcheckedクラスが指定されたときは、
+    チェックボックスの非表示を解除します。 */
+    display: block;
+}
+
+.button-group {
+	text-align: center;
+    margin-top: 20px;
+}
+
+.btn2 {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:991px) {
+    .btn2 {
+        font-size: 14px;
+    }
+}
+
+.edit-btn {
+    /*background-color: #28b086;*/
+    background-color: #00a99d;
+    cursor: pointer;
+    /*box-shadow: 0px 7px #239b76;*/
+    box-shadow: 0px 7px #008e90;
+    font-weight: bold;
+    /*margin-left: 30%;*/
+}
+
+.edit-btn:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.edit-btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+#rblSex, #rblPayment {
+    margin: 0px;
+}
+
+#rblSex li, #rblPayment li{
+   display: inline-block;
+   /*border: 1px solid #cec9c9;*/
+   /*border-radius: 6px;*/
+   margin-right: 10px;
+}
+
+#rblSex li input[type="radio"] + label, #rblPayment li input[type="radio"] + label {
+    border: 2px solid #cec9c9;
+    border-radius: 6px
+}
+
+
+#rblSex li input, #rblPayment li input {
+    opacity: 0;
+    margin: 0;
+}
+
+#rblSex li input[type="radio"]:checked + label, #rblPayment li input[type="radio"]:checked + label {
+    background-color: #219bd0;
+    color: #FFF;
+    border-radius: 5px;
+    border: 2px solid #fcff33;
+}
+
+/* 回り込み指定を追加 */
+#rblSex li input, #rblPayment li input {
+    float:left;
+    opacity: 0;
+}
+ 
+/* 回り込み解除 */
+#rblSex li:after, #rblPayment li:after {
+    content:"";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility:hidden;
+}
+
+/* タップ領域を確保 */
+#rblSex li label, #rblPayment li label {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 0;
+}
+ 
+/* マウスオンでカーソルをポインターに */
+#rblSex li label:hover, #rblPayment li label:hover {
+    cursor:pointer;
+}
+
+
+#datepicker2 {
+    font-size: 80%;
+	display: none;
+}
+		
+@media screen and (max-width:479px) {
+	#datepicker {
+		display: none;
+	}
+	#datepicker2 {
+		display: block;
+	}
+}
+
+

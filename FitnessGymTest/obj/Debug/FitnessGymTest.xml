@@ -1,0 +1,1937 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FitnessGymTest
+</name>
+</assembly>
+<members>
+<member name="F:FitnessGymTest.Payment._lblSum">
+<summary>
+lblSum コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_0._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_0._HyperLink7">
+<summary>
+HyperLink7 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_0._btnNishi">
+<summary>
+btnNishi コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_0._btnEchisaba">
+<summary>
+btnEchisaba コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="T:FitnessGymTest.My.MyWebExtension">
+ <summary>
+ Web プロジェクトの My Namespace で使用できるプロパティを定義するためのモジュール。
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:FitnessGymTest.My.MyWebExtension.Computer">
+ <summary>
+ ホスト コンピューターに関する情報を返します。
+ </summary>
+</member>
+<member name="P:FitnessGymTest.My.MyWebExtension.User">
+ <summary>
+ 現在の Web ユーザーに関する情報を返します。
+ </summary>
+</member>
+<member name="P:FitnessGymTest.My.MyWebExtension.Request">
+ <summary>
+ Request オブジェクトを返します。
+ </summary>
+</member>
+<member name="P:FitnessGymTest.My.MyWebExtension.Response">
+ <summary>
+ Response オブジェクトを返します。
+ </summary>
+</member>
+<member name="P:FitnessGymTest.My.MyWebExtension.Log">
+ <summary>
+ Asp ログ オブジェクトを返します。
+ </summary>
+</member>
+<member name="T:FitnessGymTest.My.Resources.Resources">
+<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+<member name="P:FitnessGymTest.My.Resources.Resources.ResourceManager">
+<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member>
+<member name="P:FitnessGymTest.My.Resources.Resources.Culture">
+<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member>
+<member name="F:FitnessGymTest.Registration_1._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._HyperLink7">
+<summary>
+HyperLink7 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._ddlFacilityName">
+<summary>
+ddlFacilityName コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._btnSearch">
+<summary>
+btnSearch コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._lblerr_plan">
+<summary>
+lblerr_plan コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._Label3">
+<summary>
+Label3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._lblAdmissionFee">
+<summary>
+lblAdmissionFee コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._Label2">
+<summary>
+Label2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._lblRegistrationFee">
+<summary>
+lblRegistrationFee コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._lblTsurugaMsg">
+<summary>
+lblTsurugaMsg コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._dltPlan">
+<summary>
+dltPlan コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._hdnGetsrc_P">
+<summary>
+hdnGetsrc_P コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._hdnGetid_P">
+<summary>
+hdnGetid_P コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._SqlDataSource2">
+<summary>
+SqlDataSource2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._lblerr_option">
+<summary>
+lblerr_option コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._dltOption">
+<summary>
+dltOption コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._hdnGetsrc_O">
+<summary>
+hdnGetsrc_O コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._hdnGetid_O">
+<summary>
+hdnGetid_O コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._SqlDataSource3">
+<summary>
+SqlDataSource3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._lblerr_datepicker">
+<summary>
+lblerr_datepicker コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._pnlDatepicker">
+<summary>
+pnlDatepicker コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._txtDatepicker">
+<summary>
+txtDatepicker コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._btnNext">
+<summary>
+btnNext コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1._HyperLink1">
+<summary>
+HyperLink1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._ddlFacilityName">
+<summary>
+ddlFacilityName コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._btnSearch">
+<summary>
+btnSearch コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._lblerr_plan">
+<summary>
+lblerr_plan コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._Label3">
+<summary>
+Label3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._lblAdmissionFee">
+<summary>
+lblAdmissionFee コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._Label2">
+<summary>
+Label2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._lblRegistrationFee">
+<summary>
+lblRegistrationFee コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._lblTsurugaMsg">
+<summary>
+lblTsurugaMsg コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._dltPlan">
+<summary>
+dltPlan コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._hdnGetsrc_P">
+<summary>
+hdnGetsrc_P コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._hdnGetid_P">
+<summary>
+hdnGetid_P コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._SqlDataSource2">
+<summary>
+SqlDataSource2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._lblerr_option">
+<summary>
+lblerr_option コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._dltOption">
+<summary>
+dltOption コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._hdnGetsrc_O">
+<summary>
+hdnGetsrc_O コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._hdnGetid_O">
+<summary>
+hdnGetid_O コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._SqlDataSource3">
+<summary>
+SqlDataSource3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._lblerr_datepicker">
+<summary>
+lblerr_datepicker コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._pnlDatepicker">
+<summary>
+pnlDatepicker コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._txtDatepicker">
+<summary>
+txtDatepicker コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._btnNext">
+<summary>
+btnNext コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_1_2._HyperLink1">
+<summary>
+HyperLink1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtLastNameKanji">
+<summary>
+txtLastNameKanji コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._lblerr_kanji">
+<summary>
+lblerr_kanji コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtFirstNameKanji">
+<summary>
+txtFirstNameKanji コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtLastNameKana">
+<summary>
+txtLastNameKana コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._lblerr_kana">
+<summary>
+lblerr_kana コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtFirstNameKana">
+<summary>
+txtFirstNameKana コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._rblSex">
+<summary>
+rblSex コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._lblerr_sex">
+<summary>
+lblerr_sex コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._ddlBirthYear">
+<summary>
+ddlBirthYear コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._ddlBirthMonth">
+<summary>
+ddlBirthMonth コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._ddlBirthDay">
+<summary>
+ddlBirthDay コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._ddlJob">
+<summary>
+ddlJob コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtPhone">
+<summary>
+txtPhone コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._lblerr_phone">
+<summary>
+lblerr_phone コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtZipCode">
+<summary>
+txtZipCode コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._lblerr_zipcode">
+<summary>
+lblerr_zipcode コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._ddlPrefecture">
+<summary>
+ddlPrefecture コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtAddress1">
+<summary>
+txtAddress1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtAddress2">
+<summary>
+txtAddress2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtAddress3">
+<summary>
+txtAddress3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._lblerr_address">
+<summary>
+lblerr_address コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtEmail">
+<summary>
+txtEmail コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtEmail2">
+<summary>
+txtEmail2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._lblerr_email">
+<summary>
+lblerr_email コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtPassword">
+<summary>
+txtPassword コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._txtPassword2">
+<summary>
+txtPassword2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._lblerr_password">
+<summary>
+lblerr_password コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._imgPhoto">
+<summary>
+imgPhoto コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._rblPhoto">
+<summary>
+rblPhoto コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._fupPhoto2">
+<summary>
+fupPhoto2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._fupPhoto3">
+<summary>
+fupPhoto3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._FileUpload1">
+<summary>
+FileUpload1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._fupPhoto">
+<summary>
+fupPhoto コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._lblNebiki">
+<summary>
+lblNebiki コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._rblPayment">
+<summary>
+rblPayment コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._lblerr_Payment">
+<summary>
+lblerr_Payment コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2._BtnNext">
+<summary>
+BtnNext コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtLastNameKanji">
+<summary>
+txtLastNameKanji コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._lblerr_kanji">
+<summary>
+lblerr_kanji コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtFirstNameKanji">
+<summary>
+txtFirstNameKanji コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtLastNameKana">
+<summary>
+txtLastNameKana コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._lblerr_kana">
+<summary>
+lblerr_kana コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtFirstNameKana">
+<summary>
+txtFirstNameKana コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._rblSex">
+<summary>
+rblSex コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._lblerr_sex">
+<summary>
+lblerr_sex コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._ddlBirthYear">
+<summary>
+ddlBirthYear コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._ddlBirthMonth">
+<summary>
+ddlBirthMonth コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._ddlBirthDay">
+<summary>
+ddlBirthDay コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._ddlJob">
+<summary>
+ddlJob コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtPhone">
+<summary>
+txtPhone コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._lblerr_phone">
+<summary>
+lblerr_phone コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtZipCode">
+<summary>
+txtZipCode コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._lblerr_zipcode">
+<summary>
+lblerr_zipcode コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._ddlPrefecture">
+<summary>
+ddlPrefecture コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtAddress1">
+<summary>
+txtAddress1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtAddress2">
+<summary>
+txtAddress2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtAddress3">
+<summary>
+txtAddress3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._lblerr_address">
+<summary>
+lblerr_address コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtEmail">
+<summary>
+txtEmail コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtEmail2">
+<summary>
+txtEmail2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._lblerr_email">
+<summary>
+lblerr_email コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtPassword">
+<summary>
+txtPassword コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._txtPassword2">
+<summary>
+txtPassword2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._lblerr_password">
+<summary>
+lblerr_password コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._imgPhoto">
+<summary>
+imgPhoto コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._rblPhoto">
+<summary>
+rblPhoto コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._fupPhoto2">
+<summary>
+fupPhoto2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._fupPhoto3">
+<summary>
+fupPhoto3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._FileUpload1">
+<summary>
+FileUpload1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._fupPhoto">
+<summary>
+fupPhoto コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._lblNebiki">
+<summary>
+lblNebiki コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._rblPayment">
+<summary>
+rblPayment コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._lblerr_Payment">
+<summary>
+lblerr_Payment コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_2_2._btnNext">
+<summary>
+btnNext コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblItido">
+<summary>
+lblItido コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._HyperLink7">
+<summary>
+HyperLink7 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblFacilityName">
+<summary>
+lblFacilityName コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblPlanName">
+<summary>
+lblPlanName コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblOptionName">
+<summary>
+lblOptionName コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblDateVisit">
+<summary>
+lblDateVisit コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._Table1">
+<summary>
+Table1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celAdmissionFee">
+<summary>
+celAdmissionFee コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celWaribikiName_A">
+<summary>
+celWaribikiName_A コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celRegistrationFee">
+<summary>
+celRegistrationFee コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celWaribikiName_R">
+<summary>
+celWaribikiName_R コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celMonth1">
+<summary>
+celMonth1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celMonthlyDues1">
+<summary>
+celMonthlyDues1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celWaribikiName_M1">
+<summary>
+celWaribikiName_M1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celMonthlyDues1_O">
+<summary>
+celMonthlyDues1_O コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celWaribikiName_O">
+<summary>
+celWaribikiName_O コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celMonth2">
+<summary>
+celMonth2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celMonthlyDues2">
+<summary>
+celMonthlyDues2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celWaribikiName_M2">
+<summary>
+celWaribikiName_M2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celMonthlyDues2_O">
+<summary>
+celMonthlyDues2_O コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celWaribikiName_O2">
+<summary>
+celWaribikiName_O2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._cel3">
+<summary>
+cel3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celMonth3">
+<summary>
+celMonth3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celMonthlyDues3">
+<summary>
+celMonthlyDues3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celWaribikiName_M3">
+<summary>
+celWaribikiName_M3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._cel3_O">
+<summary>
+cel3_O コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celMonthlyDues3_O">
+<summary>
+celMonthlyDues3_O コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celWaribikiName_O3">
+<summary>
+celWaribikiName_O3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celsum_text">
+<summary>
+celsum_text コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._celsum">
+<summary>
+celsum コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._btnReturn1">
+<summary>
+btnReturn1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblerr_Return1">
+<summary>
+lblerr_Return1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblNameKanji">
+<summary>
+lblNameKanji コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblNameKana">
+<summary>
+lblNameKana コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblSex">
+<summary>
+lblSex コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblBirthDay">
+<summary>
+lblBirthDay コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblPhoneNumber">
+<summary>
+lblPhoneNumber コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblJob">
+<summary>
+lblJob コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblZipCode">
+<summary>
+lblZipCode コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblAddress">
+<summary>
+lblAddress コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblEmail">
+<summary>
+lblEmail コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblPayment">
+<summary>
+lblPayment コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._imgPhoto">
+<summary>
+imgPhoto コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._btnReturn2">
+<summary>
+btnReturn2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._Panel1">
+<summary>
+Panel1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblCreditName">
+<summary>
+lblCreditName コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblCreditDate">
+<summary>
+lblCreditDate コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblCreditNumber">
+<summary>
+lblCreditNumber コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._btnReturn3">
+<summary>
+btnReturn3 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._chkDoisyo2">
+<summary>
+chkDoisyo2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblerr_chkdoisyo2">
+<summary>
+lblerr_chkdoisyo2 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._chkDoisyo1">
+<summary>
+chkDoisyo1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblerr_chkdoisyo1">
+<summary>
+lblerr_chkdoisyo1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._chkDoisyo">
+<summary>
+chkDoisyo コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._lblerr_chkdoisyo">
+<summary>
+lblerr_chkdoisyo コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Registration_3._BtnOK">
+<summary>
+BtnOK コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="M:FitnessGymTest.Registration_3.GetAge(System.DateTime,System.DateTime)">
+ <summary>
+ 生年月日から年齢を計算する
+ </summary>
+ <param name="birthDate">生年月日</param>
+ <param name="today">現在の日付</param>
+ <returns>年齢</returns>
+</member>
+<member name="F:FitnessGymTest.ThankyouForPayment._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.ThankyouForPayment._lblMemberCd">
+<summary>
+lblMemberCd コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.ThankyouForPayment._lblName">
+<summary>
+lblName コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.ThankyouForPayment._lblTenpo">
+<summary>
+lblTenpo コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.ThankyouForPayment._lblUketukebi">
+<summary>
+lblUketukebi コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.ThankyouForPayment._lblRaiten">
+<summary>
+lblRaiten コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.ThankyouForPayment._lblSyubetu">
+<summary>
+lblSyubetu コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.ThankyouForPayment._lblGoriyokakijo">
+<summary>
+lblGoriyokakijo コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.ThankyouForPayment._pnlNishitenuketuke">
+<summary>
+pnlNishitenuketuke コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.ThankyouForPayment._HyperLink7">
+<summary>
+HyperLink7 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyoupage._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyoupage._HyperLink7">
+<summary>
+HyperLink7 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.tokuteisyou._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyou._form1">
+<summary>
+form1 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyou._lblMemberCd">
+<summary>
+lblMemberCd コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyou._lblName">
+<summary>
+lblName コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyou._lblTenpo">
+<summary>
+lblTenpo コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyou._lblUketukebi">
+<summary>
+lblUketukebi コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyou._lblRaiten">
+<summary>
+lblRaiten コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyou._lblSyubetu">
+<summary>
+lblSyubetu コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyou._lblGoriyokakijo">
+<summary>
+lblGoriyokakijo コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyou._lblHiyou">
+<summary>
+lblHiyou コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+<member name="F:FitnessGymTest.Thankyou._HyperLink7">
+<summary>
+HyperLink7 コントロール。
+</summary>
+<remarks>
+自動生成されたフィールド。
+変更するには、フィールドの宣言をデザイナー ファイルから分離コード ファイルに移動します。
+</remarks>
+</member>
+</members>
+</doc>

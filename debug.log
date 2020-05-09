@@ -1,0 +1,12 @@
+[0614/164126:ERROR:main_delegate.cc(752)] Could not load cef_extensions.pak
+[0614/164126:ERROR:main_delegate.cc(752)] Could not load cef_extensions.pak
+[0614/164126:ERROR:gpu_child_thread.cc(390)] Exiting GPU process due to errors during initialization
+[0614/175114:ERROR:main_delegate.cc(752)] Could not load cef_extensions.pak
+[0614/175115:ERROR:main_delegate.cc(752)] Could not load cef_extensions.pak
+[0614/175115:ERROR:gpu_child_thread.cc(390)] Exiting GPU process due to errors during initialization
+[0614/214919:ERROR:main_delegate.cc(752)] Could not load cef_extensions.pak
+[0614/214919:ERROR:main_delegate.cc(752)] Could not load cef_extensions.pak
+[0614/214919:ERROR:gpu_child_thread.cc(390)] Exiting GPU process due to errors during initialization
+[0616/101533:ERROR:main_delegate.cc(752)] Could not load cef_extensions.pak
+[0616/101534:ERROR:main_delegate.cc(752)] Could not load cef_extensions.pak
+[0616/101534:ERROR:gpu_child_thread.cc(390)] Exiting GPU process due to errors during initialization

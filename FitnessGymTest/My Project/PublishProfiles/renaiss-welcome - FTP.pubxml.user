@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+このファイルは、Web プロジェクトの発行 / パッケージ処理で使用されます。この MSBuild ファイルを編集すると、
+この処理の動作をカスタマイズできます。詳細については、https://go.microsoft.com/fwlink/?LinkID=208121 を参照してください。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtYke4Dax40+Y6El0ExiFLwAAAAACAAAAAAAQZgAAAAEAACAAAAAEMpzIoSBU9lW+mY/otw10HHzYoUktDSln7013ac0VqgAAAAAOgAAAAAIAACAAAACW+5f/6oBO7FeOFrNeqf5IJi6NTV+xh8u0sX4WWoyndIAAAABpCyIFUOSsVvjirmI0Lh7Lwtk/1itvo7ZVwGlPy+/0SrnPl2DrPjKH7lbWoER+z1kmMpPnwaJ+86sPmkHksFbdlheQFcoXNq75GXOsUXCY6j4wRHPP2DCwePucHJx5M/ve68WLe29w7DYatF41L4w3wtxtdp0k3II62O2LfCRTRUAAAAAZPVrdkHe8OiWNe5maiN9tvqqJxaEqurJSdINAf1fGyoXnVQhplyrye/vJHgWBbTDwvU3rpUvh9F57wHEjny93</EncryptedPassword>
+    <_NewBackgroundProfile>True</_NewBackgroundProfile>
+    <_PublishTargetUrl>ftp://waws-prod-os1-007.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="css/store.css">
+      <publishTime>09/20/2017 12:02:06</publishTime>
+    </File>
+    <File Include="Echizen.aspx">
+      <publishTime>09/20/2017 11:58:36</publishTime>
+    </File>
+    <File Include="fitnessindex.aspx">
+      <publishTime>09/20/2017 09:41:21</publishTime>
+    </File>
+    <File Include="Fukuiminami.aspx">
+      <publishTime>09/20/2017 11:58:45</publishTime>
+    </File>
+    <File Include="Hanagatami.aspx">
+      <publishTime>09/20/2017 11:58:55</publishTime>
+    </File>
+    <File Include="Sabae.aspx">
+      <publishTime>09/20/2017 11:59:10</publishTime>
+    </File>
+    <File Include="Tsuruga.aspx">
+      <publishTime>09/20/2017 11:59:21</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
