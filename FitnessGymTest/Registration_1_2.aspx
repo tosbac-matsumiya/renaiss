@@ -274,31 +274,17 @@
             var holidays = [
 //                year + '-03-21',
 //                year + '-04-30',
- //               year + '-05-03',
-//                year + '-05-04',
- //               year + '-05-05'
+                //year + '-05-03',
+                //year + '-05-04',
+                //year + '-05-05'
             ];
             // 休暇
             var kyukas = [
-                year + '-04-18',
-                year + '-04-19',
-                year + '-04-20',
-                year + '-04-21',
-                year + '-04-22',
-                year + '-04-23',
-                year + '-04-24',
-                year + '-04-25',
-                year + '-04-26',
-                year + '-04-27',
-                year + '-04-28',
-                year + '-04-29',
-                year + '-04-30',
-                year + '-05-01',
-                year + '-05-02',
-                year + '-05-03',
-                year + '-05-04',
-                year + '-05-05',
-                year + '-05-06'
+                year + '-12-30',
+                year + '-12-31',
+                nextyear + '-01-01',
+                nextyear + '-01-02',
+                nextyear + '-01-03'
             ];
             // 翌月末日をセット
             var date = new Date;

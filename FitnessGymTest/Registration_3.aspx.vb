@@ -780,7 +780,8 @@ Public Class Registration_3
 
         smtp.Host = "smtp.elle-rose.co.jp" ' SMTPサーバ
         smtp.Port = "587"
-        smtp.Credentials = New NetworkCredential(“renais100”, “ryJ4M7d5”) 'サーバーへのユーザ名とパスワード
+        'smtp.Credentials = New NetworkCredential(“renais100”, “ryJ4M7d5”) 'サーバーへのユーザ名とパスワード DEL---2020/11/17
+        smtp.Credentials = New NetworkCredential(“renais100”, “RvHkW1R18bd9u8zZKsMk”) 'サーバーへのユーザ名とパスワード
 
         'smtp.Host = "smtp.elle-rose.co.jp" ' SMTPサーバ
         'smtp.Port = "587"

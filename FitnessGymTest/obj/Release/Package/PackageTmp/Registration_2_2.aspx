@@ -576,6 +576,9 @@
                 if (file.type != 'image/jpeg') {
                     alert('jpeg画像のみアップロード可能です');
 
+                } else if (file.size > 8388608) {
+                    alert('画像は8MB以内のファイルを選択してください。'); //画像サイズﾁｪｯｸ ADD_2020/02/11 TOS163
+
                 } else {
 
                     var reader = new FileReader();
